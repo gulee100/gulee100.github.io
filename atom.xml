@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gulee100.github.io</id>
     <title>GuLee</title>
-    <updated>2021-08-25T20:54:39.067Z</updated>
+    <updated>2021-08-25T20:55:11.402Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gulee100.github.io"/>
     <link rel="self" href="https://gulee100.github.io/atom.xml"/>
@@ -13,29 +13,6 @@ since 1983 &lt;br&gt;
     <logo>https://gulee100.github.io/images/avatar.png</logo>
     <icon>https://gulee100.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, GuLee</rights>
-    <entry>
-        <title type="html"><![CDATA[饭制导航]]></title>
-        <id>https://gulee100.github.io/post/fanwork/</id>
-        <link href="https://gulee100.github.io/post/fanwork/">
-        </link>
-        <updated>2021-08-24T20:47:40.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>您好！这里是古李同人作品导航 ↓<br>
-提供链接，仅做归档，不希望出现在本导航上的作者请联系<a href="gulee_100@outlook.com">站长</a> 删除</p>
-</blockquote>
-<h3 id="视频剪辑">视频剪辑</h3>
-<p>BILIBILI：<a href="https://search.bilibili.com/all?keyword=%E5%8F%A4%E6%9D%8E&amp;from_source=webtop_search&amp;spm_id_from=444.41">古李</a></p>
-<pre><code>1. [【古力/李世石】尽管我们手中空无一物-MV](bilibili.com/video/BV1as411q75J?from=search&amp;seid=166282587558385488) 推荐指数：❤❤❤❤❤ 理由：古哥微博转发认证看哭
-</code></pre>
-<p>WEIBO：</p>
-<h3 id="同人文创作">同人文创作</h3>
-<p>LOFTER: <a href="">古李</a><br>
-AO3:<a href="">古李</a><br>
-WLAND:<a href="">古李</a><br>
-TAGTREE:<a href="">古李</a><br>
-REARYARD:<a href="">古李</a></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://gulee100.github.io/post/hello-gridea/</id>
