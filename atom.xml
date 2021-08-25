@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gulee100.github.io</id>
     <title>GuLee</title>
-    <updated>2021-08-25T22:58:48.308Z</updated>
+    <updated>2021-08-25T23:00:11.442Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gulee100.github.io"/>
     <link rel="self" href="https://gulee100.github.io/atom.xml"/>
@@ -14,11 +14,25 @@ since 1983 &lt;br&gt;
     <icon>https://gulee100.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, GuLee</rights>
     <entry>
+        <title type="html"><![CDATA[【入坑必看】松意竹情 —— 古李 “表白” 集录]]></title>
+        <id>https://gulee100.github.io/post/CVoMHgHSP/</id>
+        <link href="https://gulee100.github.io/post/CVoMHgHSP/">
+        </link>
+        <updated>1900-03-01T20:54:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>cr. @300君<br>
+<a href="https://weibo.com/ttarticle/p/show?id=2309404599692796494152">原文链接</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>cr. @300君<br>
+<a href="https://weibo.com/ttarticle/p/show?id=2309404599692796494152">原文链接</a></p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[古李对局统计]]></title>
         <id>https://gulee100.github.io/post/LoJVniLH8/</id>
         <link href="https://gulee100.github.io/post/LoJVniLH8/">
         </link>
-        <updated>1900-08-25T10:35:26.000Z</updated>
+        <updated>1900-02-02T21:35:26.000Z</updated>
         <summary type="html"><![CDATA[<p>cr. @今天有古李第52局正式对局吗<br>
 <a href="https://weibo.com/6404991284/IgZgqng93">原统计微博</a></p>
 <table>
@@ -764,20 +778,6 @@ since 1983 &lt;br&gt;
 </tr>
 </tbody>
 </table>
-<!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【入坑必看】松意竹情 —— 古李 “表白” 集录]]></title>
-        <id>https://gulee100.github.io/post/CVoMHgHSP/</id>
-        <link href="https://gulee100.github.io/post/CVoMHgHSP/">
-        </link>
-        <updated>1900-08-24T09:54:40.000Z</updated>
-        <summary type="html"><![CDATA[<p>cr. @300君<br>
-<a href="https://weibo.com/ttarticle/p/show?id=2309404599692796494152">原文链接</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>cr. @300君<br>
-<a href="https://weibo.com/ttarticle/p/show?id=2309404599692796494152">原文链接</a></p>
 <!-- more -->
 ]]></content>
     </entry>
