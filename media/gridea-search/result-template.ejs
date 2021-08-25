@@ -1,0 +1,52 @@
+<div class="post-container">
+  <% posts.forEach(function(post) { %>
+   <% if ( post.feature) { %>  
+     <div class="post animated fadeInDown">
+     <div class="post_right">
+     <div class="post_right_img"><img src="<%= post.feature %>"></div>
+     </div>
+     <div class="post_left">
+      <div class="post-title">
+       <h3><a href="<%= post.link %>"><%= post.title %></a></h3>
+      </div>
+      <div class="post-content">
+       <%- post.searchedPreview %>
+      </div>
+      <div class="post-footer">
+       <div class="meta">
+        <div class="info">
+         <i class="fa fa-sun-o"></i>
+         <span class="date"><%= post.dateFormat %></span>
+         <i class="fa fa-tag"></i>
+         <% post.tags.forEach(function(tag) { %>
+         <a class="tag" href="<%= tag.link %>" title="<%= tag.name %>"><%= tag.name %> </a>
+         <% }); %>
+        </div>
+       </div>
+      </div>
+     </div>
+     </div>
+     <% } else { %>
+      <div class="post animated fadeInDown">
+      <div class="post-title">
+       <h3><a href="<%= post.link %>"><%= post.title %></a></h3>
+      </div>
+      <div class="post-content">
+       <%- post.searchedPreview %>
+      </div>
+      <div class="post-footer">
+       <div class="meta">
+        <div class="info">
+         <i class="fa fa-sun-o"></i>
+         <span class="date"><%= post.dateFormat %></span>
+         <i class="fa fa-tag"></i>
+         <% post.tags.forEach(function(tag) { %>
+         <a class="tag" href="<%= tag.link %>" title="<%= tag.name %>"><%= tag.name %> </a>
+         <% }); %>
+        </div>
+       </div>
+     </div>
+     </div>
+     <% } %>
+     <% }); %>
+</div>

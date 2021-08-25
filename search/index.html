@@ -90,44 +90,13 @@ since 1983
    </div>
    <div class="autopagerize_page_element">
     <div class="content">
-   
-     
-     <div class="post animated fadeInDown">
-     <div class="post_right">
-     <div class="post_right_img"><img src="https://gulee100.github.io/post-images/hello-gridea.jpg"></div>
-     </div>
-     <div class="post_left">
-      <div class="post-title">
-       <h3><a href="https://gulee100.github.io/post/hello-gridea/">Hello Gridea</a></h3>
-      </div>
-      <div class="post-content">
-       <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-sun-o"></i>
-         <span class="date">2018-12-10</span>
-         <i class="fa fa-tag"></i>
-         
-         <a class="tag" href="https://gulee100.github.io/tag/c4EQwZBSP/" title="Gridea">Gridea </a>
-         
+    <form id="gridea-search-form" action="https://gulee100.github.io/search/">
+    <input name="q" />
+    </form>
+          <div id="gridea-search-result" data-update="1629922274430">
+            <div class="searching">搜索中......</div>
+            <div class="no-result" style="display:none">未搜索到相关文章</div>
         </div>
-       </div>
-      </div>
-     </div>
-     </div>
-     
-     
-     <div class="pagination">
-      <ul class="clearfix">
-            
-        
-
-      </ul>
-     </div>
     </div>
    </div>
   </div>
@@ -145,5 +114,9 @@ since 1983
         });
     });
 </script>
+     <script src="https://gulee100.github.io/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+    <script src="https://gulee100.github.io/media/gridea-search/fuse.basic.min.js"></script>
+    <script src="https://gulee100.github.io/media/gridea-search/ejs.min.js"></script>
+    <script src="https://gulee100.github.io/media/gridea-search/gridea-search.js"></script>
  </body>
 </html>
