@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gulee100.github.io</id>
     <title>GuLee</title>
-    <updated>2021-08-26T00:25:45.268Z</updated>
+    <updated>2021-08-26T00:30:31.641Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gulee100.github.io"/>
     <link rel="self" href="https://gulee100.github.io/atom.xml"/>
@@ -13,6 +13,18 @@ since 1983 &lt;br&gt;
     <logo>https://gulee100.github.io/images/avatar.png</logo>
     <icon>https://gulee100.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, GuLee</rights>
+    <entry>
+        <title type="html"><![CDATA[【20210606】古力微博-快转李世石综艺]]></title>
+        <id>https://gulee100.github.io/post/WsPob2_6d/</id>
+        <link href="https://gulee100.github.io/post/WsPob2_6d/">
+        </link>
+        <updated>2021-06-06T00:28:00.000Z</updated>
+        <content type="html"><![CDATA[<p>新浪棋牌被古力快转了<br>
+2019-12-30 16:23 来自 微博视频号<br>
+李世石人机大战第 4 局，“神之一手” 78 手后，AlphaGo 开始乱下。李世石在#李栋旭想 talk# 中说，怀疑 AlphaGo 别有心计  L 新浪棋牌的微博视频 ​​​​</p>
+<p>https://weibo.com/1730866981/InaUka1hr</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【20191219】古力微博-神的男人退役赛第二局解说]]></title>
         <id>https://gulee100.github.io/post/ekQ7koczp/</id>
