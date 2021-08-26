@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gulee100.github.io</id>
     <title>GuLee</title>
-    <updated>2021-08-26T23:49:48.751Z</updated>
+    <updated>2021-08-26T23:50:44.123Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gulee100.github.io"/>
     <link rel="self" href="https://gulee100.github.io/atom.xml"/>
@@ -10,7 +10,7 @@
 since 1983 &lt;br&gt; 
 0203·甲子百番之约·0302&lt;br&gt;
 排版bug正在修，建议使用电脑浏览&lt;br&gt;
-[color=#ADADAD]排版bug修复中，请尽量使用电脑浏览 [/color]</subtitle>
+</subtitle>
     <logo>https://gulee100.github.io/images/avatar.png</logo>
     <icon>https://gulee100.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, GuLee</rights>
