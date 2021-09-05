@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gulee100.github.io</id>
     <title>GuLee</title>
-    <updated>2021-09-05T19:15:51.877Z</updated>
+    <updated>2021-09-05T19:21:45.431Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gulee100.github.io"/>
     <link rel="self" href="https://gulee100.github.io/atom.xml"/>
@@ -16,14 +16,13 @@ since 1983 &lt;br&gt;
     <rights>All rights reserved 2021, GuLee</rights>
     <entry>
         <title type="html"><![CDATA[图廊]]></title>
-        <id>https://gulee100.github.io/post/H7bXal9nB/</id>
-        <link href="https://gulee100.github.io/post/H7bXal9nB/">
+        <id>https://gulee100.github.io/post/pictures/</id>
+        <link href="https://gulee100.github.io/post/pictures/">
         </link>
-        <updated>2021-09-05T07:15:20.000Z</updated>
-        <content type="html"><![CDATA[<p>长图test</p>
-<p><img src="https://gulee100.github.io/post-images/1630869336765.jpeg" alt="" loading="lazy"><br>
-<img src="https://gulee100.github.io/post-images/1630869340675.jpeg" alt="" loading="lazy"><br>
-<img src="https://gulee100.github.io/post-images/1630869345349.jpeg" alt="" loading="lazy"></p>
+        <updated>2021-09-05T07:21:06.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gulee100.github.io/post-images/1630869680072.jpeg" alt="" loading="lazy"><br>
+<img src="https://gulee100.github.io/post-images/1630869687066.jpeg" alt="" loading="lazy"><br>
+<img src="https://gulee100.github.io/post-images/1630869696504.jpeg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
