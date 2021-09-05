@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="https://gulee100.github.io/styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
    <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-   
+   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css" />
     <script>hljs.initHighlightingOnLoad();</script>
+
+     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+     
  </head>
  <body>
      <div class="sidebar animated fadeInDown">
    <div class="logo-title">
     <div class="title">
-     <img src="https://gulee100.github.io/images/avatar.png?v=1630021842451" style="width:127px;" />
-
-     <h3 title=""><a href="/">甲子百番-古李纪录站</a></h3>
+     <img src="https://gulee100.github.io/images/avatar.png?v=1630816754411" style="width:127px;" />
 
      <div class="description">
       <p><b> 古力&李世石</b> <br> 
@@ -104,10 +105,77 @@ since 1983 <br>
     <div class="content">
          
      <div class="post animated fadeInDown">
-  <div class="tags-container">
+
+  <div class="tags-container" >
             
             
           </div>
+
+ <!-- 这里是我加的别点会消失。20210904 -->
+ <p style="text-align:right;">
+     <br/>
+     <button onclick="myFunctionhide()" style="background-color: black;color: white;">别点这个</button>
+     <br/>
+     
+     <br/>
+  </p>
+   
+
+<script>
+  function myFunctionhide() {
+    const x = document.getElementsByClassName("jinggetag");
+
+  
+    for (var i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+    }
+  }
+</script>
+
+<script>
+  function myFunctionsort() {
+    
+    var  list,i, switching, b, shouldSwitch;
+    list = document.getElementsByClassName("jinggetag");
+    switching = true;
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // start by saying: no switching is done:
+    switching = false;
+    b = list.getElementsByTagName("LI");
+    // Loop through all list-items:
+    for (i = 0; i < (b.length - 1); i++) {
+      // start by saying there should be no switching:
+      shouldSwitch = false;
+      /* check if the next item should
+      switch place with the current item: */
+      if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+        /* if next item is alphabetically
+        lower than current item, mark as a switch
+        and break the loop: */
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark the switch as done: */
+      b[i].parentNode.insertBefore(b[i + 1], b[i]);
+      switching = true;
+    }
+  }
+
+  
+
+  }
+</script>
+
+
+
+<!-- 这里是我加的别点。20210904 -->
+
+
 
       </div>
      </div>
@@ -120,15 +188,21 @@ since 1983 <br>
   <script src="https://gulee100.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://gulee100.github.io/media/scripts/jquery.appear.js"></script>
 <script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
 
 <script>
-    jQuery(document).ready(function () {
-        jQuery.viewImage({
-            'target' : '.gallery img,.dynamics_excerpt img,.song a', //需要使用ViewImage的图片
-            'delay'  : 300                //延迟时间
-        });
-    });
+jQuery(document).ready(function($){
+    $(".gallery-item img").each(function(){
+
+    var _a = $("").attr("href",this.src);
+    var element = document.createElement("a");
+    $(element).attr("data-fancybox", "gallery");
+    $(element).attr("href", $(this).attr("src"));
+    $(element).attr("data-caption", $(this).attr("alt"));
+    $(this).wrap(element);
+    })
+});
+
 </script>
  </body>
 </html>

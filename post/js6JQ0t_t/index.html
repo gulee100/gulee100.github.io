@@ -7,16 +7,28 @@
   <link rel="stylesheet" href="https://gulee100.github.io/styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
    <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-   
+   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css" />
     <script>hljs.initHighlightingOnLoad();</script>
+
+     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+     
  </head>
  <body>
+
+
+
+ <!-- 这里是我加的返回页面顶部第一部分。20210904 -->
+ <span id="top" name="top"></span>
+  <!-- 这里是我加的返回页面顶部第一部分。20210904 -->
+
+
+
+
+
      <div class="sidebar animated fadeInDown">
    <div class="logo-title">
     <div class="title">
-     <img src="https://gulee100.github.io/images/avatar.png?v=1630021842451" style="width:127px;" />
-
-     <h3 title=""><a href="/">甲子百番-古李纪录站</a></h3>
+     <img src="https://gulee100.github.io/images/avatar.png?v=1630816754411" style="width:127px;" />
 
      <div class="description">
       <p><b> 古力&李世石</b> <br> 
@@ -142,6 +154,47 @@ since 1983 <br>
       <div class="pagination">
        <ul class="clearfix">
 
+
+
+ <!-- 这里是我加的返回页面顶部第二部分。20210904 -->
+ <p style="text-align: center;">
+  <a href="#top"> <span style="background-color: black; color: white; padding: 0.6em;">  回到顶部  </span> </a>
+  <br>
+  <br>
+ </p>
+  <!-- 这里是我加的返回页面顶部第二部分。20210904 -->
+
+
+
+
+<!-- 这里是我加的评论区。20210904 -->
+
+
+
+ <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'rDARXCdHaMAtzKLCXRIHIgvR-MdYXbMMI',
+            appKey: '4jpMinhO9sw2udtewcyRmRTz'
+        })
+    </script>
+
+
+<!-- 这里是我加的评论区。20210904 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
         <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://gulee100.github.io/post/qFN52ga_l/" title="【20160613】古力微博-明天看小李了">上一篇</a></li>
          
         
@@ -183,15 +236,26 @@ since 1983 <br>
   <script src="https://gulee100.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://gulee100.github.io/media/scripts/jquery.appear.js"></script>
 <script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
 
 <script>
-    jQuery(document).ready(function () {
-        jQuery.viewImage({
-            'target' : '.gallery img,.dynamics_excerpt img,.song a', //需要使用ViewImage的图片
-            'delay'  : 300                //延迟时间
-        });
-    });
+jQuery(document).ready(function($){
+    $(".gallery-item img").each(function(){
+
+    var _a = $("").attr("href",this.src);
+    var element = document.createElement("a");
+    $(element).attr("data-fancybox", "gallery");
+    $(element).attr("href", $(this).attr("src"));
+    $(element).attr("data-caption", $(this).attr("alt"));
+    $(this).wrap(element);
+    })
+});
+
 </script>
+
+
+
+
+
  </body>
 </html>
