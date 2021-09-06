@@ -2273,7 +2273,6 @@ body {
   width: 100%;
   margin: 0 auto 30px auto;
   background-color: #fff;
-  overflow: visible;
 }
 p {
   line-height: 1.9em;
@@ -2386,7 +2385,7 @@ table {
 .post-content p {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2000;
   -webkit-box-orient: vertical;
 }
 .hljs {
